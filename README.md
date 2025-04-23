@@ -1,7 +1,7 @@
 # 🐑 AI Sheepdog Bot Simulation (MDP + A*)
 
 ### Author: Hench Wu  
-**Course:** CS440 – Summer 2023  
+Summer 2023  
 **Files:**  
 - `SheepRobot3.java` – Main program  
 - `NodeDL.java` – Doubly-linked node class representing each map cell  
