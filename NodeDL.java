@@ -4,7 +4,7 @@
  * 
  * Hench Wu
  *  
- * Program files: SheepRobot1.java(main program), NodeDL.java(Node class)
+ * Program files: SheepRobot3.java(main program), NodeDL.java(Node class)
  */
 
 public class NodeDL
