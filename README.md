@@ -1,4 +1,4 @@
-# 🐑 AI Sheepdog Bot Simulation (MDP + A*)
+# AI Sheepdog Bot Simulation (MDP + A*)
 
 ### Author: Hench Wu  
 Summer 2023  
@@ -15,7 +15,7 @@ java SheepRobot3
 
 ---
 
-## 📌 Overview
+Overview
 
 This project simulates an intelligent **robot sheepdog** guiding a **sheep** into a central **pen** using Markov Decision Processes (MDP) and A* search.
 
@@ -25,21 +25,21 @@ This project simulates an intelligent **robot sheepdog** guiding a **sheep** int
 
 ---
 
-## 🧠 AI Features
+AI Features
 
-### 🤖 Robot
+Robot
 - Uses **MDP** for decision-making with adaptive rewards.
 - Switches between **goal-directed behavior** and **sheep-leading behavior** based on sheep's position.
 - Occasionally uses **A\*** for shortest path computation.
 
-### 🐑 Sheep
+Sheep
 - Passively wanders unless the robot is within a scanning radius.
 - Actively charges at the robot when detected.
 - Adjusts its directional probability to evade or pursue based on MDP-style weights.
 
 ---
 
-## 🔧 How It Works
+How It Works
 
 1. A grid (default 31x31) is initialized.
 2. The **pen (goal)** is placed in the center.
@@ -49,7 +49,7 @@ This project simulates an intelligent **robot sheepdog** guiding a **sheep** int
 
 ---
 
-## 🎮 Visual Mode
+Visual Mode
 
 By default, `visual = true`:
 - Simulation prints the grid in the console with live updates:
